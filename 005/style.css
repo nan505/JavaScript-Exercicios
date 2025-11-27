@@ -1,0 +1,33 @@
+:root{
+    --cor-fundo: #f5f5f5;
+    --cor-texto: #0c0c0c;
+}
+
+.modo-noturno{
+    --cor-fundo: #0c0c0c;
+    --cor-texto: #f5f5f5;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--cor-fundo);
+}
+
+h1{
+    color: var(--cor-texto);
+    font-size: 100px;
+}
+
+h2{
+    color: var(--cor-texto);
+    font-size: 50px;
+}
+
+.centralizar{
+    display: flex;
+    justify-content: center;
+}

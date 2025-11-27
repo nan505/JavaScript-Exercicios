@@ -14,6 +14,13 @@ function fnRelogio(){
     else{
         msgHora.innerText = "Boa madrugada!"
     }
+
+    if(horas >= 6 && horas < 18){
+        document.body.classList.remove("modo-noturno")
+    }
+    else{
+        document.body.classList.add("modo-noturno")
+    }
 }
 
 setInterval(fnRelogio, 1000)
